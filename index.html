@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Onshine</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <style>
+    @media (width <= 600px) {
+      .title {
+        color: rgb(112, 25, 25);
+        font-size: 20px;
+      }
+    }
+
+    @media (width >= 601px) {
+      .title {
+        color: rgb(28, 25, 112);
+        font-size: 35px;
+      }
+    }
+
+    @keyframes rotar {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+@keyframes
+    #navbar {
+      background-color: lightgray;
+      margin: 0px;
+      padding: 0px;
+    }
+@keyframes cambiocolor {
+  0%{
+color:purple;
+  }
+  25%{
+color: blue;
+  }
+  50%{
+color: aqua;
+  }
+  75%{
+color: aquamarine;
+  }
+  100%{
+color: darkblue;
+  }
+
+
+}
+#hero_text{
+  animation: cambiocolor 10s linear infinite;
+}
+    .centrado {
+      text-align: center;
+    }
+
+    .title {
+      padding-left: 125px;
+      animation: rotar 5s linear infinite;
+
+    }
+
+    footer {
+      text-align: center;
+      padding: 50px;
+      background-color: black;
+      color: aliceblue;
+    }
+
+    #experience {
+      background-color: rgb(230, 230, 230);
+      padding: 100px;
+    }
+
+    #experience h1 {
+      padding-top: 150px;
+    }
+
+    #models {
+      text-align: center;
+      padding-left: 250px;
+      padding-right: 250px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+
+    #models img {
+      width: 250px;
+      height: 400px;
+
+    }
+
+    #models p {
+      padding-bottom: 25px;
+    }
+
+    #beauty {
+
+      padding-top: 150px;
+      padding-bottom: 150px;
+
+    }
+
+    #beauty p {
+      padding-left: 125px;
+
+    }
+
+    #beauty h1 {
+      padding-top: 400px;
+      padding-left: 125px;
+    }
+
+    #beauty button {
+      margin-left: 125px;
+
+    }
+
+    #qna {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      text-align: center;
+    }
+
+    #pns {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid" id="navbar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" id="title">Onshine</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" id="items">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#models">Our models</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pns">Products and Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#qna">Questions and Answers</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="beauty">
+    <div class="container-fluid">
+      <div class="row">
+        <article class="col-6">
+          <H1 class="title">Beauty is on the Outside</H1>
+          <p id="hero_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. </p>
+          <button type="button" class="btn btn-dark">Book a Model Now</button>
+        </article>
+        <article class="col-6">
+          <img src="img/model one" alt="one" class="img-fluid">
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container-fluid">
+      <div class="row">
+        <article class="col-6">
+          <img src="img/model two.jpeg" alt="two" class="img-fluid">
+        </article>
+        <article class="col-6">
+          <h1 class="title">25 years or Experience</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+          <button type="button" class="btn btn-light">Book a Model Now</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="models">
+    <div class="container-fluid">
+      <div class="row">
+        <h2 class="title">Our Models</h2>
+        <p>Lorem Ipsum</p>
+        <article class="col-3">
+          <img src="img/model three.jpg" alt="three">
+        </article>
+        <article class="col-3">
+          <img src="img/model four.jpg" alt="four">
+        </article>
+        <article class="col-3">
+          <img src="img/model five.jpeg" alt="five">
+        </article>
+        <article class="col-3">
+          <img src="img/model six.webp" alt="six">
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section style="background-color: #d9d9d9;" id="pns">
+    <div class="container">
+      <div class="centrado">
+        <h2 class="centrado">Products and Services</h2>
+        <p class="centrado">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et
+          dolore magna aliqua. </p>
+      </div>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+            type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Products</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+            type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Services</button>
+        </li>
+
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+          tabindex="0">
+          <div class="row">
+            <div class="col-4">
+              <br>
+              <br>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/model two.jpeg" class="img-fluid rounded-start" alt="second">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Prada Makeup</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore et
+                        dolore magna aliqua.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <br>
+              <br>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/model two.jpeg" class="img-fluid rounded-start" alt="second">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Prada Makeup</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore et
+                        dolore magna aliqua.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <br>
+              <br>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/model two.jpeg" class="img-fluid rounded-start" alt="second">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Prada Makeup</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore et
+                        dolore magna aliqua.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+          <div class="row">
+            <div class="col-4">
+              <br>
+              <br>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/model two.jpeg" class="img-fluid rounded-start" alt="second">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Prada Makeup</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore et
+                        dolore magna aliqua.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <br>
+              <br>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/model two.jpeg" class="img-fluid rounded-start" alt="second">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Prada Makeup</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore et
+                        dolore magna aliqua.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <br>
+              <br>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/model two.jpeg" class="img-fluid rounded-start" alt="second">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Prada Makeup</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore et
+                        dolore magna aliqua.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+
+  <section id="qna">
+    <div class="container-fluid">
+      <h2>Frequent Questions and Answers</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              1. Do I need prior experience to join the agency?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>No.</strong> We accept both experienced models and beginners with potential. Our team will
+              evaluate your profile during the selection process.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              2. How can I apply to become a model?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              You can fill out the registration form on our website and submit recent photos. If your profile meets our
+              needs, we will contact you.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              3. Does the agency charge a registration fee?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>No.</strong> The registration and evaluation process is free. Any additional services will be
+              clearly explained before you sign up for them.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h6>Eilyn Yahaira Barahona Aquino.</h6>
+    <h6>12411059.</h6>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
