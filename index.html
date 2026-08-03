@@ -7,15 +7,31 @@
   <title>Onshine</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-235M2RBZBF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-235M2RBZBF');
+</script>
+
   <style>
-    @media (width <= 600px) {
+    @media (width <=600px) {
       .title {
         color: rgb(112, 25, 25);
         font-size: 20px;
       }
     }
 
-    @media (width >= 601px) {
+    @media (width >=601px) {
       .title {
         color: rgb(28, 25, 112);
         font-size: 35px;
@@ -31,36 +47,49 @@
         transform: rotate(360deg);
       }
     }
-@keyframes
-    #navbar {
+
+    @keyframes #navbar {
       background-color: lightgray;
       margin: 0px;
       padding: 0px;
     }
-@keyframes cambiocolor {
-  0%{
-color:purple;
-  }
-  25%{
-color: blue;
-  }
-  50%{
-color: aqua;
-  }
-  75%{
-color: aquamarine;
-  }
-  100%{
-color: darkblue;
-  }
+
+    @keyframes cambiocolor {
+      0% {
+        color: purple;
+      }
+
+      25% {
+        color: blue;
+      }
+
+      50% {
+        color: aqua;
+      }
+
+      75% {
+        color: aquamarine;
+      }
+
+      100% {
+        color: darkblue;
+      }
 
 
-}
-#hero_text{
-  animation: cambiocolor 10s linear infinite;
-}
+    }
+
+    #hero_text {
+      animation: cambiocolor 10s linear infinite;
+    }
+
     .centrado {
       text-align: center;
+    }
+
+    .fonttest {
+      font-family: "Edu VIC WA NT Han";
+      font-optical-sizing: auto;
+      font-style: normal;
     }
 
     .title {
@@ -179,8 +208,11 @@ color: darkblue;
     <div class="container-fluid">
       <div class="row">
         <article class="col-6">
+          
           <H1 class="title">Beauty is on the Outside</H1>
-          <p id="hero_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          <p id="hero_text" class="fonttest">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut
+            labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. </p>
           <button type="button" class="btn btn-dark">Book a Model Now</button>
@@ -199,6 +231,7 @@ color: darkblue;
           <img src="img/model two.jpeg" alt="two" class="img-fluid">
         </article>
         <article class="col-6">
+         
           <h1 class="title">25 years or Experience</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
